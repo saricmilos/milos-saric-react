@@ -1,0 +1,21 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="128" y1="80" x2="912" y2="944" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FAFAFA"/>
+      <stop offset="1" stop-color="#E4E4E7"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(318 297) rotate(52.8) scale(686.235)">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="silhouette" x1="320" y1="322" x2="703" y2="744" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#71717A"/>
+      <stop offset="1" stop-color="#3F3F46"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="1024" rx="120" fill="url(#bg)"/>
+  <rect width="1024" height="1024" rx="120" fill="url(#glow)"/>
+  <circle cx="512" cy="378" r="156" fill="url(#silhouette)" fill-opacity="0.94"/>
+  <path d="M282 776C282 649.527 384.527 547 511 547H513C639.473 547 742 649.527 742 776V810H282V776Z" fill="url(#silhouette)" fill-opacity="0.94"/>
+  <rect x="140" y="140" width="744" height="744" rx="90" stroke="#FFFFFF" stroke-opacity="0.45" stroke-width="4"/>
+</svg>
